@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+#wrapper {
+    height: 50vh;
+    justify-content: center;
+    font-family: Hurmit Nerd Font;
+}
+
+
+#title {
+    font-family: Hurmit Nerd Font;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.entry {
+    border: 1px solid grey;
+    border-width: 3px;
+    height: 40px;
+    width: 500px;
+    font: Hurmit Nerd Font;
+    font-size: 20px;
+}
+
+.entry:focus {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 3px solid lime;
+    outline: none;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 500px;
+    border: 1px solid grey;
+    margin-top: 0;
+    box-shadow: 3px 0 3px 0 rgba(0, 0, 0, 0.2), -3px 0 3px 0 rgba(0, 0, 0, 0.19);
+    font-size: 22px;
+    align-items: center;
+    text-align: justify;
+    color: white;   
+}
+
+span {
+    margin-left: 15px;
+}
+
+.list-wrapper {
+    display: flex;
+    justify-content: left;
+    display: block;
+}
+
+.circular-check {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    vertical-align: center;
+}
+
+.circular-check:checked {
+    background-color: white;
+}
+
+.credits {
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    height: 100vh;
+}
+
+.test {
+    display: flex;
+    justify-content: right;
+}
+
+
+.subm {
+    height: 40px;
+    width: 80px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.subm:hover {
+    color: red;
+}
+
+.span-interior {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.status {
+    color:white;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.small-box {
+    width: 500px;
+    height: 20px;
+    font-size: 14px;
+    border: solid 1px gray;
+}
+
+.strike {
+    text-decoration: line-through;
+    text-decoration-thickness: 4px;
+    text-decoration-color: red;
+}
+
+#bottom-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bot_but {
+    width: 500px;
+    height: 20px;
+    font-size: 14px;
+    border: solid 1px gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.all_but {
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    color: white;
+}
+
+#all_but:hover {
+    color: red;
+}
+
+.active_but {
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    color: white;
+}
+
+#active_but:hover {
+    color: red;
+}
+
+.comp_but {
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    color: white;
+}
+
+#comp_but:hover {
+    color: red;
+}
+
+.clear_comp {
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    color: white;
+}
+
+#clear_comp:hover {
+    color: red;
+}
+
+.selected {
+    border: solid 1px white;
+}
